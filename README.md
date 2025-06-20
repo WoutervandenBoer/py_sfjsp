@@ -14,6 +14,8 @@ The Stochastic Flexible Job-shop Scheduling Problem (SFJSP) is an extension of t
 In the SFJSP, each job contains various operations. Each operation needs to be scheduled on a machine. 
 Operations all have durations, sometimes different for each machine that it can be scheduled on.
 
+![(Stochastic) Flexible Job-shop Scheduling Problem animated explanation](assets/sfjsp_explaination.gif)
+
 An SFJSP as defined in this package can be broken down into the following concepts:
 - **Jobs**: Each `Job` consists of a sequence of operations.
 - **Operations**: Each `Operation` can be processed on one of several machines (this is what the *flexibility* in SFJSP refers to).
