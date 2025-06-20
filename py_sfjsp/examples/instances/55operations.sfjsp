@@ -1,0 +1,1270 @@
+{
+  "jobs": [
+    {
+      "job_id": 1,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 6,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 2,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 3,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 4,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 5,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 6,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 6,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 6,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 7,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 8,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 9,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 6,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 10,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.946464547107982,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 5,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.1696080984221915,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 6,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 4.560170185988092,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 5,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 6.351929655216146,
+                "sigma": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 6,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.658782474656201,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 4,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 5.253317366548036,
+                "sigma": 0.3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": 1
+    },
+    {
+      "machine_id": 2
+    },
+    {
+      "machine_id": 3
+    },
+    {
+      "machine_id": 4
+    },
+    {
+      "machine_id": 5
+    },
+    {
+      "machine_id": 6
+    }
+  ],
+  "constraints": []
+}

@@ -1,0 +1,114 @@
+{
+  "jobs": [
+    {
+      "job_id": 1,
+      "operations": [
+        {
+          "operation_id": 1,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 1.0,
+                "sigma": 0.3
+              }
+            },
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 1.2,
+                "sigma": 0.4
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 2,
+          "modes": [
+            {
+              "machine_id": 2,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 0.8,
+                "sigma": 0.2
+              }
+            },
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 0.9,
+                "sigma": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "job_id": 2,
+      "operations": [
+        {
+          "operation_id": 3,
+          "modes": [
+            {
+              "machine_id": 1,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 1.5,
+                "sigma": 0.5
+              }
+            }
+          ]
+        },
+        {
+          "operation_id": 4,
+          "modes": [
+            {
+              "machine_id": 3,
+              "duration": {
+                "type": "LogNormalDistribution",
+                "mu": 1.1,
+                "sigma": 0.35
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "machines": [
+    {
+      "machine_id": 1
+    },
+    {
+      "machine_id": 2
+    },
+    {
+      "machine_id": 3
+    }
+  ],
+  "constraints": [
+    {
+      "type": "PrecedenceConstraint",
+      "op1_id": 1,
+      "op2_id": 2,
+      "min_delay": 0.5,
+      "max_delay": 10.0
+    },
+    {
+      "type": "PrecedenceConstraint",
+      "op1_id": 3,
+      "op2_id": 4,
+      "min_delay": 0.0,
+      "max_delay": 5.0
+    },
+    {
+      "type": "SameMachineConstraint",
+      "op1_id": 1,
+      "op2_id": 3
+    }
+  ]
+}
